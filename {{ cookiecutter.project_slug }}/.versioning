@@ -1,0 +1,6 @@
+[proman]
+version = "{{ cookiecutter.project_version }}"
+
+[[proman.versioning.files]]
+filepath = ".versioning"
+pattern = "version = \"${version}\""

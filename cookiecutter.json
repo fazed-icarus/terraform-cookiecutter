@@ -1,0 +1,28 @@
+{
+  "author_name": "",
+  "author_url": "",
+  "terraform_version": "1.3.8",
+  "project_name": "Project Name",
+  "project_version": "0.1.0",
+  "project_description": "A sample terraform module",
+  "project_slug": "{{ cookiecutter.project_name | slugify }}",
+  "module_name": "{{ cookiecutter.project_slug | replace('-', '_') }}",
+  "license": [
+    "Unlicensed",
+    "Apache-2.0",
+    "MIT",
+    "MPL-2.0",
+    "AGPL-3.0",
+    "GPL-3.0",
+    "LGPL-3.0"
+  ],
+  "_copy_without_render": [
+    "*.html",
+    "*.js",
+    ".github/workflows/main.yml"
+  ],
+  "_extensions": [
+    "cookiecutter.extensions.SlugifyExtension",
+    "jinja2_time.TimeExtension"
+  ]
+}
