@@ -16,6 +16,8 @@ Git Repo: {{ cookiecutter.author_url }}
 
 ## Usage
 
+### Terraform
+
 - Install Terraform
 - run the following commands:
 
@@ -32,13 +34,16 @@ terraform apply tfplan
 terraform destroy
 ```
 
+### versioning
+
 - Installing automated versioning tool
 
 ```
 pip install proman-versioning
 ```
 
-- Using Terratest
+### Terratest
+
 - Install Go
 - Run the following commands:
 
